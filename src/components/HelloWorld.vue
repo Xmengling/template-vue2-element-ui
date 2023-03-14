@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
-    <el-button>组件按钮</el-button>
+    <div class="button">
+      <el-button>组件按钮</el-button>
+    </div>
     <el-button @click="apiTestApi">api请求</el-button>
   </div>
 </template>
@@ -24,6 +26,10 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.hello {
+  .button {
+    font-size: 18px;
+  }
+}
 </style>
