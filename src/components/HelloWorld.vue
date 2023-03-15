@@ -2,8 +2,8 @@
   <div class="hello">
     <div class="button">
       <el-button>组件按钮</el-button>
+      <el-button @click="apiTestApi">api请求</el-button>
     </div>
-    <el-button @click="apiTestApi">api请求</el-button>
   </div>
 </template>
 
